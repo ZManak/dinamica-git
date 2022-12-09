@@ -10,7 +10,7 @@ main {
     background-color: black;
 }
 
-h1, h2 {
+h1 {
     color: darkred;
 }
 
@@ -26,9 +26,15 @@ h1, h2 {
     padding-bottom: 20px;
 }
 
-input[type=text], input[type=email], input[type=select]{
+input[type=text], input[type=password]{
     border-radius: 15px;
     width: 100%;
+}
+
+#btnsubmit{
+    border-radius: 15px;
+    color: black;
+    background-color: aliceblue;
 }
 
 ::placeholder{
