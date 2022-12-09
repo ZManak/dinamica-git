@@ -1,5 +1,8 @@
 document.querySelector("formALDEIDO").addEventListener("submit", function (event) {
 
+function suma(a,b) {
+    return a + b
+    }
     event.preventDefault();
 
     console.log(event.target.elements);
@@ -28,4 +31,4 @@ document.querySelector("formALDEIDO").addEventListener("submit", function (event
         alert("Form was sent")
 
     }
-})
+
