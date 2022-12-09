@@ -1,5 +1,8 @@
-document.querySelector("form.form").addEventListener("submit", function (event) {
+document.querySelector("formALDEIDO").addEventListener("submit", function (event) {
 
+function suma(a,b) {
+    return a + b
+    }
     event.preventDefault();
 
     console.log(event.target.elements);
@@ -7,8 +10,8 @@ document.querySelector("form.form").addEventListener("submit", function (event) 
     console.log(event.target.password.value);
 
 
-    const name = event.target.user.value;
-    const email = event.target.password.value;
+    const user = event.target.user.value;
+    const password = event.target.password.value;
 
     let validated = true;
     
@@ -28,10 +31,4 @@ document.querySelector("form.form").addEventListener("submit", function (event) 
         alert("Form was sent")
 
     }
-})
 
-
-function suma(a,b) {
-    return a + b
-    
-}
