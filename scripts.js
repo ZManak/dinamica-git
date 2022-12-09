@@ -30,3 +30,8 @@ document.querySelector("form.form").addEventListener("submit", function (event) 
     }
 })
 
+
+function suma(a,b) {
+    return a + b
+    
+}
